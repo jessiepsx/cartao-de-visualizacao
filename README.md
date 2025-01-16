@@ -1,3 +1,4 @@
+
 Página de Produto - Perfume Gabrielle Essence
 Este projeto é uma página de produto simples, desenvolvida com HTML e CSS, com o objetivo de praticar conceitos básicos de desenvolvimento web.
 
