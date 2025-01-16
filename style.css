@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+
+main {
+   background-color: white;
+   max-width: 700px;
+   min-width: 375px;
+   margin: 20px auto;
+   border-radius: 10px;
+   display: flex;
+   overflow: hidden;
+   
+}
+
+img {
+    border-radius: 10px 0px 0px 10px;
+        width: 100%; /* Agora ocupa toda a largura do container */
+        height: 100%; /* Ocupa toda a altura do container */
+        object-fit: cover; /* Ajusta para cobrir o espaço sem distorção */
+    }
+    
+
+
+.informacoes {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Alinha os itens na vertical */
+    justify-content: space-between; /* Espaça os elementos */
+ }
+
+h1 {
+    
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+
+h3 {
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 10 20px;
+}
+
+p{
+    font-family: "Montserrat", serif;
+    font-weight: normal;
+    font-size: 15px;
+  
+   margin: 5px;
+   margin-top: 25px;
+   margin-bottom: 20px;
+
+    line-height: 1.5; /* Aumenta o espaçamento entre as linhas */
+    text-align: justify; /* Justifica o texto para um visual mais limpo */  
+ }
+
+ .preco-botao{
+    display: flex;
+    flex-direction: column; /* Preço e botão em uma coluna */
+    align-items: flex-start; /* Alinha à esquerda */
+    gap: 15px; /* Espaçamento entre o preço e o botão */
+    margin-top: 20px;
+ }
+
+ .preco {
+  color: hsl(158, 36%, 37%);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Fraunces", serif ;
+  margin: 5px;
+  margin-top: -10px;
+ }
+
+ .antigo {
+    font-size: 13px;
+    position: relative;
+    top: -50px;
+    left: 220px;
+ }
+
+ .botao {
+    text-decoration: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+
+    font-size: 14px;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+   
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: -20px;
+ }
